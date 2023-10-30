@@ -22,11 +22,8 @@ app.use('/user', userRouter);
 app.use(logger);
 
 
-const port = 3500; 
-mongoose.connection.once('open',()=>{
-    console.log('Connected to MongoDB');
+const port = process.env.PORT ||3500; 
     app.listen(port,()=>{
         console.log(`server is running on ${port}`)
     })
-    
-})
+
