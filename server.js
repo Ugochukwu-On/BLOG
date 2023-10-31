@@ -1,9 +1,8 @@
-require('dotenv').config
+require('dotenv').config()
 const express =  require ('express');
 const app = express();
 const path = require('path');
 const connectDB = require('./config/connectDB');
-const mongoose = require('mongoose');
 const {logger} = require ('./middleware/logEvents');
 const authRouter = require('./controller/auth')
 const blogRouter = require('./controller/blog')

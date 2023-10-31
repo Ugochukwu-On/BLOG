@@ -11,3 +11,8 @@
 20231030	03:11:27	6d83af40-167d-40a7-b956-d3e26f143078	GET	undefined	/published
 20231030	03:11:47	2ce6615f-5060-413a-95bb-121e73438de9	GET	undefined	/published
 20231030	03:11:55	fbb95caf-9326-4a7e-88e2-5064f71276e0	GET	undefined	/favicon.ico
+20231030	21:52:03	a9afe181-635c-4948-b1be-79ba937cfcfa	GET	undefined	/auth/register
+20231030	21:53:51	355e6b97-23f3-4a12-ad2f-4e2429554503	GET	undefined	/auth/register
+20231030	22:20:12	89e41b5e-1f07-45ed-a4a8-bd61aa658a8b	POST	undefined	/auth
+20231030	22:20:20	b5445331-40b7-45cd-b841-051fc9fefd5b	GET	undefined	/auth
+20231031	01:20:48	41261ead-cb2e-4f0e-8c00-13e5b4f886b7	POST	undefined	/login
