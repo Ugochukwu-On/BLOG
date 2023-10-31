@@ -20,7 +20,6 @@ app.use('/blog', blogRouter);
 app.use('/user', userRouter);
 app.use(logger);
 
-
 const port = process.env.PORT ||3500; 
     app.listen(port,()=>{
         console.log(`server is running on ${port}`)
